@@ -3,7 +3,7 @@ const ws = require('ws');
 const Sensor = require("./Sensor.js");
 
 const httpPort = process.env.npm_config_http_port ?? 5001;
-const serialport = process.env.npm_config_serial_port ?? 'COM4';
+const serialport = process.env.npm_config_serial_port ?? 'COM3';
 
 let server = http.createServer((req, res) => {
     res.writeHead(200);
