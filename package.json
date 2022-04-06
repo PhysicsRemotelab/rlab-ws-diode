@@ -9,9 +9,11 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "serialport-list": "serialport-list"
   },
   "dependencies": {
+    "@serialport/list": "^10.4.0",
     "serialport": "^10.4.0",
     "ws": "^8.5.0"
   }
