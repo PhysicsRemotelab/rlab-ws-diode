@@ -7,5 +7,10 @@ npm run serialport-list
 
 Start application by specifying correct serial port and http port, for example:
 ```
-npm start --serial-port=COM3
+npm start --serial-port=/dev/ttyUSB1
+```
+
+Device ID for diode control:
+```
+usb-1a86_USB_Serial-if00-port0	1a86
 ```
